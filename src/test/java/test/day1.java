@@ -35,6 +35,12 @@ public class day1 {
         Assert.assertTrue(false);
     }
 
+    @Test
+    public void DemoThree() {
+        System.out.println("hello three");
+        Assert.assertTrue(false);
+    }
+
     @AfterSuite
     public void Afsuite(){
         System.out.println("I am no 1 from last");
