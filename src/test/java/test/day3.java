@@ -8,7 +8,7 @@ public class day3 {
     public void beforeClass() {
         System.out.println("Before executing all methods in class");
     }
-
+// Hello world
     @Parameters({"URL", "APIKey/usrname"})
     @Test
     public void WebLoginCarLoan(String urlName, String key) {
